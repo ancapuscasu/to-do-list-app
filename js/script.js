@@ -36,5 +36,5 @@ function newItem(){
   }
 
   $('#list').sortable();
-}
+};
 
