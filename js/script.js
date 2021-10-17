@@ -11,6 +11,7 @@ function newItem(){
     alert ('You must write a to-do item!');
   } else {
     $('#list').append(li);
+    $('form').trigger('reset');
   }
 
 
